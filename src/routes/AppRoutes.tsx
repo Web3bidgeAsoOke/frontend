@@ -10,6 +10,7 @@ import Article from "../pages/articles";
 import { useAppKitAccount } from "@reown/appkit/react";
 import { NotConnected } from "../components/ui/NotConnected";
 import ItemDetails from "../pages/ItemDetails";
+import AsoEbiFashionTradition from "../pagesMockData/articles1"
 
 const AppRoutes = () => {
   const { isConnected } = useAppKitAccount();
@@ -30,6 +31,8 @@ const AppRoutes = () => {
         <Route path="/articles" element={<Article />} />
         <Route path="/sellers" element={<Sellers />} />
         <Route path="/designers" element={<Designers />} />
+        <Route path="/article1" element={<AsoEbiFashionTradition />} />
+        <Route path="/article2" element={<AsoEbiFashionTradition />} />
         <Route path="*" element={"Not Found"} />
       </Routes>
     </Router>

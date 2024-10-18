@@ -38,7 +38,7 @@ const Video: React.FC = () => {
         minHeight: "100vh",
         color: "#1125ba",
         overflow: "hidden",
-        backgroundColor: "#191c2e", // Set a solid background color
+        backgroundColor: "#191c2e", 
       }}
     >
       <div
@@ -50,7 +50,7 @@ const Video: React.FC = () => {
       >
         <div
           style={{
-            background: "#f0f01f", // Changed to the specified color
+            background: "#f0f01f", 
             borderRadius: "8px",
             boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
             padding: "15px",
@@ -77,7 +77,7 @@ const Video: React.FC = () => {
               border: "1px solid #ddd",
               width: "100%",
               maxWidth: "400px",
-              color: "black", // Set text color to black
+              color: "black", 
             }}
           />
         </div>
@@ -87,7 +87,7 @@ const Video: React.FC = () => {
             <div
               key={video.id}
               style={{
-                background: "rgba(255, 255, 255, 1)", // Set to fully opaque
+                background: "rgba(255, 255, 255, 1)", 
                 borderRadius: "8px",
                 boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)",
                 padding: "15px",
@@ -98,7 +98,7 @@ const Video: React.FC = () => {
               <iframe
                 width="100%"
                 height="315"
-                src={video.url.replace("watch?v=", "embed/")} // Convert URL for embedding
+                src={video.url.replace("watch?v=", "embed/")} 
                 title={video.title}
                 frameBorder="0"
                 allowFullScreen
