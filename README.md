@@ -1,6 +1,21 @@
-# AsoOke Frontend
+# AsoOke: MarketPlace for native wears
 
-This is a react app built with react x typescript (vite).
+## Overview
+
+Aso Ebi is a decentralized fashion marketplace and showcase platform to connect local fabric sellers, global cloth merchants, fashion designers, and fashion enthusiasts. It provides a space for users to buy fabrics like Aso Oke and other native textiles, discover designers, and purchase bespoke clothing, all while showcasing the skills and creations of local and global fashion designers.
+
+In building this project, we used Alchemy as an RPC provider, as defined in the hardhat configuration. 
+Here are some important notes:
+
+- We split our contract logic into Marketplace, Escrow, and Auction
+- Asoebi Contract Repo: https://github.com/youngancient/kimiko-contract
+  
+---
+
+## Quick Links
+
+- [Features](#features)
+- [User Roles](#user-roles)
 
 ## Getting Started
 
@@ -51,3 +66,38 @@ Frontend
 ```
 
 
+
+---
+
+## Features
+
+- **Decentralized fabric and fashion marketplace**
+  
+- **Bespoke clothing orders**
+  
+- **Real-Time Rewards**
+  
+- **NFT-backed garments and fashion collectibles**
+  
+- **Secure, escrow-based payments**
+
+---
+
+## User Roles
+
+### 1. **Buyer**
+   - Can purchase attire
+   - Can place an order for bespoke attire
+   - Can bid for a rare attire
+   - Can initiate escrow through payment
+
+### 2. **Seller**
+   - Create store
+   - add attires
+   - manage order
+     
+### 3. **Designer**
+   - Create portfolio
+   - add items
+   - manage store
+---
